@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiktok_clone/features/authentication/sign_up_screen.dart';
 
 void main() {
   runApp(const TikTokApp());
@@ -12,7 +13,7 @@ class TikTokApp extends StatelessWidget {
     return MaterialApp(
       title: 'TicTok Clone',
       theme: ThemeData(primaryColor: Color(0xFFE9435A)),
-      home: Container(),
+      home: SignUpScreen(),
     );
   }
 }
